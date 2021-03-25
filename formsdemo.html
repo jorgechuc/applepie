@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap y Formularios</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/site.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>Inicio de sesión</h1>
+            <form>
+                <div class="form-group">
+                    <label for="userNameInput">Usuario</label>
+                    <input type="text" class="form-control" id="userNameInput">
+                </div>
+                <div class="form-group">
+                    <label for="passwordInput">Contraseña</label>
+                    <input type="password" class="form-control form-control-lg" id="passwordInput">
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" class="form-check-input" id="rememberMeCheck">
+                    <label class="form-check-label form-control-sm" for="rememberMeCheck">Recuerda mis
+                        credenciales</label>
+                </div>
+                <button type="submit" class="btn btn-success">Iniciar sesión</button>
+            </form>
+        </div>
+
+        <div class="container">
+            <h1>Uso de Grid Layout de Bootstrap en un formulario</h1>
+            <form>
+                <div class="row form-group">
+                    <div class="col-sm-6">
+                        <label for="userNameInput">Usuario</label>
+                        <input type="text" class="form-control" id="userNameInput">
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="passwordInput">Contraseña</label>
+                        <input type="password" class="form-control" id="passwordInput">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col">
+                        <input type="checkbox" class="form-check-input" id="rememberMeCheck">
+                        <label class="form-check-label form-control-sm" for="rememberMeCheck">Recuerda mis
+                            Credenciales</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

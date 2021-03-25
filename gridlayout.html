@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout de Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/site.css">
+</head>
+
+<style>
+    .row>[class^=col] {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        background-color: rgba(182, 89, 27, 0.25);
+        border: 1px solid rgba(228, 75, 15, 0.4);
+    }
+
+    .row {
+        margin-top: 0.25em;
+    }
+</style>
+
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                Elemento 1 de 2 (renglón 1)
+            </div>
+            <div class="col">
+                Elemento 2 de 2 (renglón 1)
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                Elemento 1 de 3 (renglón 2)
+            </div>
+            <div class="col-4">
+                Elemento 2 de 3 (renglón 2)
+            </div>
+            <div class="col-4">
+                Elemento 3 de 3 (renglón 2)
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                Elemento 1 de 3 (renglón 3)
+            </div>
+            <div class="col-3">
+                Elemento 2 de 3 (renglón 3)
+            </div>
+            <div class="col-6">
+                Elemento 3 de 3 (renglón 3)
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                Elemento 1 de 12 (renglón 4)
+            </div>
+            <div class="col-1">
+                Elemento 2 de 12 (renglón 4)
+            </div>
+            <div class="col-1">
+                Elemento 3 de 12 (renglón 4)
+            </div>
+            <div class="col-1">
+                Elemento 4 de 12 (renglón 4)
+            </div>
+            <div class="col-1">
+                Elemento 5 de 12 (renglón 4)
+            </div>
+            <div class="col-1">
+                Elemento 6 de 12 (renglón 4)
+            </div>
+            <div class="col-1">
+                Elemento 7 de 12 (renglón 4)
+            </div>
+            <div class="col-1">
+                Elemento 8 de 12 (renglón 4)
+            </div>
+            <div class="col-1">
+                Elemento 9 de 12 (renglón 4)
+            </div>
+            <div class="col-1">
+                Elemento 10 de 12 (renglón 4)
+            </div>
+            <div class="col-1">
+                Elemento 11 de 12 (renglón 4)
+            </div>
+            <div class="col-1">
+                Elemento 12 de 12 (renglón 4)
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-3 order-3">
+                Elemento 1 de 3 (renglón 5)
+            </div>
+            <div class="col-3 order-2">
+                Elemento 2 de 3 (renglón 5)
+            </div>
+            <div class="col-5 order-1">
+                Elemento 3 de 3 (renglón 5)
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-2">
+                Elemento 1 de 4 (renglón 6)
+            </div>
+            <div class="col-md-3 col-sm-4">
+                Elemento 2 de 4 (renglón 6)
+            </div>
+            <div class="col-md-2 col-sm-3">
+                Elemento 3 de 4 (renglón 6)
+            </div>
+            <div class="col-md-4 col-sm-3">
+                Elemento 4 de 4 (renglón 6)
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3">
+                Elemento 1 de 4 (renglón 7)
+            </div>
+            <div class="col-sm-3">
+                Elemento 2 de 4 (renglón 7)
+            </div>
+            <div class="col-sm-2">
+                Elemento 3 de 4 (renglón 7)
+            </div>
+            <div class="col-sm-4">
+                Elemento 4 de 4 (renglón 7)
+            </div>
+        </div>
+    </div>
+</body>
+</html>
